@@ -1,0 +1,13 @@
+[
+    {
+        "pollQuestion": "Which is the best Paper Mario Game?",
+        "pollOptions": [
+            { "option": "Paper Mario", "votes" : 9 },
+            { "option": "Paper Mario: The Thousand-Year Door", "votes" : 10 },
+            { "option": "Super Paper Mario", "votes" : 8 },
+            { "option": "Paper Mario: Sticker Star", "votes" : 3 },
+            { "option": "Paper Mario: Color Splash", "votes" : 5 },
+            { "option": "Paper Mario: Origami King", "votes" : 7 }
+        ]
+    }
+]
