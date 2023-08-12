@@ -12,6 +12,7 @@ export const Navbar = () => {
         <div className="flex justify-center space-x-2">
             <a href="/" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Home</a>
             <a href="/poll" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Polling Component with Victory Graph</a>
+            <a href="/openai" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">OpenAI GPT-3</a>
         </div>
 
     </nav>

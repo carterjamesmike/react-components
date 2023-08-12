@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 //Components and home page
 import Home from "./Home";
 import Poll from "./components/Poll";
+import Openai from "./components/Openai";
 
 
 //API endpoint
@@ -32,6 +33,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/poll" element={<Poll />} />
+            <Route path="/openai" element={<Openai />} />
           </Routes>
         </main>
       </Router>

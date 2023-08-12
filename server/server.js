@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
 });
 
 //Openai get
-app.get('/openai', async (req, res) => {
+app.post('/openai', async (req, res) => {
     const openaiText = await openai.generateText();
     res.json({ openaiText });
 });
