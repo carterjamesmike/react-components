@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useQuery, useMutation } from "@apollo/client";
+import Navbar from "./Navbar";
 
 import { VictoryBar, VictoryChart, VictoryAxis } from "victory";
 
@@ -53,6 +54,8 @@ const Poll = () => {
 
   return (
     <>
+    <Navbar />
+
       <div className="bg-gray-200 rounded-lg shadow-md p-6 ml-[100px] mr-[100px]">
       {/* Displays the poll upon page load */}
       {showGraph === false ? (
